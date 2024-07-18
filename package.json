@@ -1,0 +1,30 @@
+{
+  "name": "dracula-soft-theme",
+  "displayName": "Dracula Soft Theme",
+  "description": "Dracula Soft Theme fork from Dracula",
+  "version": "0.0.2",
+  "publisher": "samihaddad",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dracula Soft Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dracula Soft Theme-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package -o ./bin/dracula.vsix",
+    "publish": "vsce publish"
+},
+  "devDependencies": {
+    "@vscode/vsce": "^2.30.0"
+  }
+}

@@ -2,7 +2,7 @@
   "name": "dracula-soft-theme",
   "displayName": "Dracula Soft Theme",
   "description": "Dracula Soft Theme fork from Dracula",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "samihaddad",
   "engines": {
     "vscode": "^1.91.0"
